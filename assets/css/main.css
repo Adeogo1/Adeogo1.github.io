@@ -1341,7 +1341,7 @@ input, select, textarea {
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
-			border-radius: 16px;/*how much curve the edges have was 4 previously */
+			border-radius: 4px;/*how much curve the edges have was 4 previously */
 		}
 
 			#header nav ul li {
@@ -1355,7 +1355,7 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 15rem;/*the length of the whole bottom part e.g intro, socials etc*/
+					min-width: 10rem;/*the length of the whole bottom part e.g intro, socials etc*/
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
