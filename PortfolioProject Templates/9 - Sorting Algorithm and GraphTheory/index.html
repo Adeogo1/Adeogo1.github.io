@@ -25,8 +25,7 @@
 					<div class="content">
 						<div class="inner">
 							<h1>Graph Theory and Sorting Algorithms</h1>
-							<p>A fully responsive site template designed by and released<br />
-							for free under the  license.</p>
+							<p>This project has many different graph algorithm based graph theory and many different sorting Algorithms</p>
 						</div>
 					</div>
 					<nav>
@@ -47,16 +46,30 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>Graphs allow us to visualize the problem using nodes to represent an article of clothing and edges to represent relationships between them.
+									Many real world situations can be modelled as a graph with directed edges where some events must occur before others e.g. school class prerequisites, program dependencies, event scheduling, Assembly instructions etc
+								</p>
+								<p>There are different types of graphs.</p>
+								<p>Undirected graph - An undirected graph is a type of graph in which the edges have no direction, meaning that they connect two vertices in both directions. This is in contrast to a directed graph, in which the edges have a direction and connect one vertex to another in a specific direction. In an undirected graph, if vertex A is connected to vertex B, then vertex B is also connected to vertex A. This means that there is no distinction between the "starting" and "ending" vertex of an edge, and the edges are often represented as simple lines connecting the vertices. </p>
+								<p>Directed Graphs - A directed graph, also known as a digraph, is a graph data structure in which edges have a direction and are represented by arrows. Each vertex (or node) in a directed graph has a set of incoming edges and a set of outgoing edges, indicating the direction of the connections between the vertices. Directed graphs are commonly used to represent relationships between objects or entities where the direction of the relationship is important, such as in a social network or a transportation network. They can be used to model many real-world systems, such as computer networks, transportation systems, and biological systems.</p>
+								<p>Weighted Graphs - A weighted graph is a graph in which each edge has a numerical value, called a weight. These weights can represent various things such as distance, cost, or even a probability. Weighted graphs can be used to model real-world problems such as finding the shortest path between two points, or the most cost-effective path in a network. These graphs are useful in solving problems involving optimization and decision-making. They can be either directed or undirected, depending on the problem and context.</p>
+								<p>Trees - a tree is a data structure that represents a hierarchical relationship between elements, called nodes. Each node in a tree can have one or more child nodes, and each child node can have one or more children of its own, and so on. The top node in a tree is called the root, and nodes that do not have children are called leaf nodes. Trees are used in many different applications, including file systems, databases, and algorithms for searching and sorting data.
+								</p>
+								<p>A Rooted Tree - A rooted tree is a specific type of tree data structure in computer programming where one node, called the root, serves as the topmost node and parent of all other nodes in the tree. All other nodes in the tree are connected to the root, and each node can have one or more child nodes. The tree structure is hierarchical, meaning that each node can have a parent node and child nodes, with the exception of the root node which has no parent. Rooted trees are commonly used to represent hierarchical relationships between data</p>
+								<p>Directed Acyclic Graphs (DAGs) - A Directed Acyclic Graph (DAG) is a type of directed graph that contains no directed cycles, meaning that there is no way to start at any vertex in the graph and follow a sequence of directed edges that eventually loops back to the starting vertex. In other words, it is a directed graph without any loops. DAGs are often used to model relationships between events or tasks, where the edges represent causal relationships and the absence of cycles ensures that there are no paradoxes or circular dependencies</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p>Sorting Algorithm - SelectionSort, InsertionSort, QuickSort, MergeSort, HeapSort, RadixSort, BubbleSort, BitonicSort</p>
+								<p>Graph Algorithm - Adjacency Matrix, Adjacency List, Topological sort, Bellman-Ford, Algorithm to find Bridges and Articulation Points, Tarjan’s Algorithm, Prim’s Minimum Spanning Tree, LinkedList </p>
+								<p>A adjacency Matrix is a very simple way to represent a graph. The idea is that the cell m[i][j] represents the edge weight of going from node i to node j</p>
+								<p>An adjacency list - a way to represent a graph as a map from nodes to lists of edges</p>
+								<p>Topological sort - a topological ordering is an ordering of nodes in a directed graph where for each directed edge from node A to node B, node A appears before node B in the ordering. The topological sort algorithm can find a topological ordering</p>
+								<p>Bellman-Ford - A single source shortest path algorithm. this means it can find the shortest path from one node to any other node. It is not ideal for most SSSP problems because it has high time complexity</p>
+
 							</article>
 
 						<!-- About -->

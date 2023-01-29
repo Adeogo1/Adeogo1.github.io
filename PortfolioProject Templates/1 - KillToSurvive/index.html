@@ -25,8 +25,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Kill To Survive</h1>
-								<p>A fully responsive site template designed by and released<br />
-								for free under the  license.</p>
+								<p>This is a horror fps Battle royale.</p>
 							</div>
 						</div>
 						<nav>
@@ -47,16 +46,37 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>This game is an FPS Horror Battle royale where no one wants you alive, not other players and especially not the wonderers/wanderers and titans.
+									Your survival is vital but also a hindrance as there can be only one winner, one survivor. This is (insert cool replacement here) a Deadmans Wonderland. But who wants you dead, you ask?
+									No,no,no,no… It’s who needs you dead. </p>
+								<p>The wonderers/wanderers are beings that want you dead to eat you but they are not stupid zombies they are very much smart as they know how and when to run and whether or not to team up with others of their kind to kill you.
+									The enemy of my enemy is my friend. They also decide on whether or not to follow Titans.</p>
+								<p>Then there’s you I pity for you because this is going to be a long dayyyy but that’s only if you decide you want to be a victim. The titans want to kill you, the wanderers/wonderers want to kill you and your own people want to kill you but which is scary but you can defend yourself and survive but not without massacre and bloodshed. You are given a pistol to survive and with that pistol comes infinite ammo and hope. You use that pistol to kill people and creatures in order to get money because you cant pick up other peoples weapon. So to get new and better weapon you buy it with money to get money you kill. </p>
+								<p>The theme the game is built around is horror and survival and how you could get killed from anywhere at any time. So your goal is basically to survive but to survive you need to be able to kill whatever is approaching you at any point and you never know when or where that could be, and in order to do this you need stronger and maybe even more weapons.
+									The horror aspect is also fully shown by the footsteps, wonderers and titans aren’t stupid they are very light on their feet.</p>
+								<p>The extra is you also have to buy ammunition forcing you to ration you ammo and make decisions which is more important to you ammo or weapons.
+									The survival aspect come from how you can only heal up to 60% of your health and to fully heal you need to buy healable but the issue arises here. This is because you only have 6 slots and the first slot is already occupied by your pistol. So you have to choose between weapons healables and throwables. This fully embodies the theme of survival for me because survival is all about make difficult decisions with rationing and scarcity, in order to help you in the long run. </p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p>Singletons and Persistent Singleton -
+									So I created a singleton template class that creates singletons from any class and the persistence singleton template class creates a singleton that is persistent through out all scenes.
+									So the Singleton persistent class creates a template class that still inherits from monobehaviour. The T is for the class we want to pass in to make a singleton, you can also add in a type constraint where T is a component which is what i did that means we will only be passing in classes derived from components components is the base class for everything attached to a GO. Then I made a function within the singleton template class so that when other scripts call this singleton pattern they get that instance. </p>
+								<p>Helpers - 
+									I created helper classes that doesn't inherit from anything and what their purpose is, is to reduce repetition mistakes caused by entering strings because when you use strings and if the string is wrong you get errors but no error that explicitly tells you that it is because the string name is incorrect. So how the helper class does it is by creating a public const string that is equal to the correct string we are going to use and whenever you need it you call the class and the name of the string and I use this in many cases as this can be called anywhere at any time. it is also easier to remember what i need to pass. I also created many iterations of this for many use cases to make things easier to access and modify and also look neater.</p>
+								<p>Save System and Account -
+									I created an account class that contains player details such as the users' account name, level, Xp, money and gems and etc the account also keeps  player achievements which i kept to only a few.
+									I then created a player manager that is a persistent singleton which will be used in every scene and because i haven't set up the facebook, google play and iOS SDK and it only handles guest. everything pertaining the current player is handle through this manager and this manager creates a new player account if one doesn't already exist and it also saves and load the player (assuming the player has already registered as a guest).
+									I then create a save and load system that is much more reliable and secure than player prefs and what it does is it read and writes whatever is being saved into a json file using a specific path set by unity and when the player is loading the account details it create a new account and overwrites that account with the account that was read from the path given. However this is not fully secure as i found the exact file and it is modifiable. A solution to this would be to use a binary save system, a firebase save system or a NodeJS but for now json file is fine.</p>
+								<p>Player Look -
+									Using inverse kinematics and player animation rigging I made the players head look where the camera is looking independent to the player animation and it has a limit and moves like a real head.</p>
+								<p>Weapon wedge wheel and wedge activator -
+									For my game, I created a wedge wheel for the weapon system I did this because of its quick draw. So basically when the zone closes in and the game is coming to a close and enemies are closer there needs to be a smooth way to change between your weapons and quick too and I came up with the weapon wedge wheel and the way this work is you tap the semi-circle in the bottom middle of the screen and while your finger is down your whole inventory opens up and you can see the weapons, healables and throwables in your inventory, then you drag your finger to the item of your choice and when you release your finger on that item then becomes your active weapon and the image within the semi-circle changes to the active weapon’s image. This is done using event triggers and events. Event triggers are a unity component. So how this is done is when you click on the semi-circle the event trigger is activated and that event trigger is onPointerDown and then it invokes an event called activate wedge and what this does is tell each wedge to activate and then on each wedge there are 2 event triggers: onPointerEnter and onPointerExit and what this does is that when the player’s finger is on the wedge it increases the alpha and the exit changes the alpha then when you raise your finger the onPointerUp trigger invokes a method that deactivates the wedges and if the player’s finger was last on the wedge it sets that wedge to be the active weapon but if it wasn’t on a wedge when they lifted up their finger it just deactivates the wedge.
+								</p>
+								<p>There are also more things done in this project such as the use of multiple design patterns like template design pattern, achievement system, custom timer class, minmaps and more</p>
 							</article>
 
 						<!-- About -->

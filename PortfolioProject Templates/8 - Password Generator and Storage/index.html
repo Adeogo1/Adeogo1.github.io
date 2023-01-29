@@ -25,8 +25,7 @@
 					<div class="content">
 						<div class="inner">
 							<h1>Password Generator and Storage</h1>
-							<p>A fully responsive site template designed by and released<br />
-							for free under the  license.</p>
+							<p>A web based application that creates a passowrd based on the application and stores it on the cloud for easy lookup</p>
 						</div>
 					</div>
 					<nav>
@@ -47,16 +46,23 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>A web-based application that generates and stores passwords for various sites and applications on the cloud. The user can create a unique password for each account using the application and then store it on the cloud for easy access. The application uses a secure encryption method to protect the passwords and can only be accessed with a master password set by the user. This feature ensures that the passwords are safe and can only be accessed by the user. The user can also update or delete the passwords as needed. This application makes it easy for users to have strong and unique passwords for all their accounts without having to remember them all. It also eliminates the need to write down or store passwords in unsecured locations.</p>
+								<p>This application helps to keep all your accounts safe by ensuring that a hacker could not gain access to multiple accounts with just one password. With this application, you can easily generate strong and unique passwords for each of your online accounts, and have the peace of mind that your personal information and online presence are protected. Additionally, the cloud-based storage allows you to access your passwords from anywhere, making it convenient for you to log into your accounts from multiple devices. This ensures that your accounts are always protected and your personal information remains secure.</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p>The program prompts the user for the length of the password, the number of symbols to include in the password and the number of numbers to include in the password using the Scanner class. These values are stored in the variables passwordLength, numSymbols and numNumbers respectively.</p>
+								<p>A secure random number generator is created using the SecureRandom class</p>
+								<p>A string called allChars is created which contains all the possible characters that could be included in the password. This includes lowercase and uppercase letters, numbers and symbols.</p>
+								<p>A variable password is created as an empty string and will be used to store the generated password.</p>
+								<p>A for loop is used to add a random character from the allChars string to the password variable for a number of times equal to the difference between the password length and the number of symbols and numbers specified by the user.</p>
+								<p>Another for loop is used to add a random symbol from the allChars string to the password variable for the number of times specified by the user. This loop uses the Character class to check if the character is a letter or digit and if so, decrements the loop counter and continues to the next iteration.</p>
+								<p>Another for loop is used to add a random number between 0-9 to the password variable for the number of times specified by the user.</p>
+								<p>The password is then shuffled using another for loop and a random index is selected from the password string. This is done to make the password more secure as it makes it harder for someone to guess the password if it is in a predictable order.</p>
+								<p>The shuffled password is then stored on the cloud using a storeOnCloud method.</p>
 							</article>
 
 						<!-- About -->

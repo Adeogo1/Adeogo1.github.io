@@ -25,8 +25,7 @@
 					<div class="content">
 						<div class="inner">
 							<h1>AI Unity</h1>
-							<p>A fully responsive site template designed by and released<br />
-							for free under the  license.</p>
+							<p>A project in unity where agents exist and behave using steering behaviours and flocking</p>
 						</div>
 					</div>
 					<nav>
@@ -47,16 +46,24 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>Steering Behaviors are designed to give  autonomous characters the ability to  navigate around their world in a life-like  and improvisational manner. </p>
+								<p>They are not based on complex strategies  involving path planning or global  calculations, but instead use local  information.</p>
+								<p>Combinations of steering behaviors can  be used to achieve higher level goals. </p>
+								<p>Steering Behaviours - Seek, Flee, Arrival, Pursue, Evade, Wander, Path Following, Collision Avoidance, Obstacle Avoidance</p>
+								<p>Flocking - Separation, Cohesion, Alignment, Leader Following</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p>Seek -  used to guide a character towards a specific location in global space by adjusting its velocity. This is different from an attractive force, such as gravity, which would cause the character to move in an orbital path around the target point. The desired velocity is a vector pointing from the character to the target, and its length can be either the character's maximum speed or its current speed, depending on the desired outcome. The steering vector is calculated as the difference between the desired velocity and the character's current velocity.</p>
+								<p>Flee -  that guides a character away from a specified target position. It is the opposite of the seek behavior, which guides the character towards a target. The desired velocity for flee behavior is calculated by pointing it in the opposite direction of the target position. This results in the character's velocity being radially aligned away from the target. The steering vector for flee behavior is the difference between this desired velocity and the current velocity of the character. It's important to note that this behavior does not produce an orbital path around the target, unlike an attractive force such as gravity. The length of the "desired velocity" can be set to max_speed or the character's current speed</p>
+								<p>Arrival - The Arrival behavior is a modified version of the Seek behavior, where the character's speed is decreased as it approaches the target. Instead of moving at full speed towards the target, the character slows down and eventually comes to a stop when it reaches the target. The distance at which the slowing down process starts is adjustable. The desired velocity is calculated in the same way as in the Seek behavior, by pointing from the character towards the target. When the character is outside of the stopping radius, the desired velocity is capped to the max speed. As the character moves closer to the target within the stopping radius, the desired velocity is gradually decreased (e.g. linearly) until it comes to a stop when it reaches the target.</p>
+								<p>Pursue -  used to guide a character towards another moving character. Unlike seek, which targets a fixed point in space, pursuit requires predicting the future position of the target (referred to as the "quarry"). To do this, a simple prediction method is employed, such as a linear velocity-based predictor, which assumes that the quarry will continue in its current direction without turning. This prediction is then reevaluated each step of the simulation to ensure accuracy. To calculate the predicted target location, the quarry's velocity is scaled by a specific time interval (T) and added to its current position. The steering behavior for pursuit is then achieved by applying the seek steering behavior to the predicted target location. </p>
+								<p>Evade - Evasion is a behavior that is similar to pursuit, but instead of seeking the target, the character will steer away from the predicted future position of the target character. To achieve this, the character uses flee, which is the inverse of seek, to direct its velocity in a radially aligned direction away from the target. This behavior assumes that the target character will continue to move in a certain direction, and the character predicts its future position by scaling its velocity by a certain time interval (T) and adding that offset to its current position. The steering for evasion is then calculated by applying the flee steering behavior to the predicted target location. </p>
+								<p>Wander - The wander behavior moves a character aimlessly. The  character must retain steering direction and make small  random displacements to it each frame. This behavior can be implemented in several ways, but one that  produces good results is to constrain the steering force to the surface of a circle located slightly ahead of the character. </p>
+								<p>There are many other behaviours used in this project but these are the main ones.</p>
 							</article>
 
 						<!-- About -->
