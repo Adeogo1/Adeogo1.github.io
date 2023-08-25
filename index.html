@@ -1,780 +1,691 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="images/favicon.png" rel="icon" />
-<title>Adeogo - Personal Portfolio </title>
-<meta name="description" content="Simone is responsive bootstrap 5 one page personal portfolio html template.">
-<meta name="author" content="harnishdesign.net">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<!-- Web Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Adeogo CV Portfolio</title>
 
-<!-- Stylesheet
-============================== -->
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
-<!-- Font Awesome Icon -->
-<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
-<!-- Owl Carousel -->
-<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
-<!-- Magnific Popup -->
-<link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
-<!-- Custom Stylesheet -->
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <meta name="description" content="ComeOut - Html5 Portfolio CV/Resume Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--=== Styelesheet Css ===-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body class="side-header" data-bs-spy="scroll" data-bs-target="#header-nav" data-bs-offset="1">
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!--===============================================================================-->
 
-<!-- Preloader -->
-<div class="preloader preloader-dark">
-  <div class="lds-ellipsis">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div>
-<!-- Preloader End -->
-
-<!-- Document Wrapper
-=============================== -->
-<div id="main-wrapper">
-  <!-- Header
-  ============================ -->
-  <header id="header" class="sticky-top">
-    <!-- Navbar -->
-    <nav class="primary-menu navbar navbar-expand-lg navbar-dark bg-dark border-bottom-0">
-      <div class="container-fluid position-relative h-100 flex-lg-column ps-3 px-lg-3 pt-lg-3 pb-lg-2">
-
-        <!-- Logo -->
-        <a href="#" class="mb-lg-auto mt-lg-4">
-			<span class="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
-				<img class="img-fluid rounded-pill d-block" src="images\headshot.jfif" title="I'm Simone" alt="">
-			</span>
-			<h1 class="text-5 text-white text-center mb-0 d-lg-block">Adeogo Adeniji</h1>
-        </a>
-        <!-- Logo End -->
-
-        <div id="header-nav" class="collapse navbar-collapse w-100 my-lg-auto">
-          <ul class="navbar-nav text-lg-center my-lg-auto py-lg-3">
-            <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About Me</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-            <!--<li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Testimonial</a></li>-->
-            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-          </ul>
+    <!--====== Preloader Start ======-->
+    <div class="preloader">
+        <div class="preloader-spinner">
+            <div class="display-table">
+                <div class="display-table-cell">
+                    <img src="img/preloader.svg" alt="Divergent Studio">
+                </div>
+            </div>
         </div>
-        <ul class="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-          <li class="social-icons-linkedin"><a data-bs-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/adeogo-a-6b690b165/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-          <li class="social-icons-twitter"><a data-bs-toggle="tooltip" title="Twitter" href="https://twitter.com/Adeogo234" target="_blank"><i class="fab fa-twitter"></i></a></li>
-        <!--  <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" title="Dribbble" data-bs-placement="top" href="http://www.dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a></li> -->
-          <li class="social-icons-github"><a data-bs-toggle="tooltip" title="GitHub" data-bs-placement="top" href="https://github.com/Adeogo1" target="_blank" ><i class="fab fa-github"></i></a></li>
-        </ul>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
-      </div>
-    </nav>
-    <!-- Navbar End -->
-  </header>
-  <!-- Header End -->
+    </div>
+    <!--====== Preloader End ======-->
 
-  <!-- Content
-  ============================================= -->
-  <div id="content" role="main">
-
-    <!-- Intro
-    ============================================= -->
-    <section id="home">
-      <div class="hero-wrap">
-        <div class="hero-mask opacity-8 bg-dark"></div>
-        <div class="hero-bg parallax" style="background-image:url('images/intro-bg.jpg');"></div>
-        <div class="hero-content section d-flex min-vh-100">
-          <div class="container my-auto">
+    <!--====== Header Start ======-->
+    <header id="header-area">
+        <div class="container">
             <div class="row">
-              <div class="col-12 text-center">
-                <div class="typed-strings">
-                  <p>I am Adeogo Adeniji</p>
-                  <p>I am a Game Developer.</p>
-                  <p>I am a Software Developer.</p>
-                  <p>I am a Graduate.</p>
+                <div class="col-md-4">
+                    <div class="header-social-icons">
+                        <ul>
+                          <!--
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            -->
+                            <li><a href="https://github.com/Adeogo1"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/adeogo-a-6b690b165/"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <p class="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
-                <h2 class="text-16 fw-600 text-white mb-2 mb-md-3"><span class="typed"></span></h2>
-                <p class="text-5 text-light mb-4">based in Dartford, Kent.</p>
-				<a href="#contact" class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2">Get In Touch</a>
-              </div>
-            </div>
-          </div>
-          <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span class="animated"><i class="fa fa-chevron-down"></i></span></a> </div>
-      </div>
-    </section>
-    <!-- Intro end -->
-
-    <!-- About
-    ============================================= -->
-    <section id="about" class="section bg-dark-1">
-      <div class="container px-lg-5">
-        <!-- Heading -->
-        <div class="position-relative d-flex text-center mb-5">
-          <h2 class="text-24 text-muted opacity-1 text-uppercase fw-600 w-100 mb-0">About Me</h2>
-          <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Know Me More<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
-        </div>
-        <!-- Heading end-->
-
-        <div class="row gy-5">
-          <div class="col-lg-7 col-xl-8 text-center text-lg-start">
-            <h2 class="text-7 text-white fw-600 mb-3">I'm <span class="text-primary">Adeogo Adeniji,</span> a Game Developer</h2>
-            <p class="text-white-50">I am a programmer and game developer with a strong passion for creating immersive and engaging gaming experiences. In addition to my skills in coding languages such as C++, C#, and Java, and my expertise in the use of Unity and Unreal Engine, I also have extensive knowledge in computer science principles such as graph theory, network flow algorithms, dynamic programming, and sorting algorithms. I have also gained some experience in creating cloud web applications, further expanding my skillset and abilities. This foundation makes me well-equipped to tackle complex problems and find innovative solutions in my work. </p>
-            <p class="text-white-50">I am always looking for new challenges and opportunities to grow in my field and contribute value to my team. With my skills and knowledge, I am confident in my ability to deliver high-quality work and be a valuable asset to any team in the dynamic and constantly evolving gaming industry.</p>
-          </div>
-          <div class="col-lg-5 col-xl-4">
-            <div class="ps-lg-4">
-              <ul class="list-style-2 list-style-light text-light">
-                <li><span class="fw-600 me-2">Name:</span>Adeogo Adeniji</li>
-                <li><span class="fw-600 me-2">Email:</span><a href="adeogo172@gmail.com">adeogo172@gmail.com</a></li>
-                <li><span class="fw-600 me-2">Age:</span>21</li>
-                <li class="border-0"><span class="fw-600 me-2">From:</span>Dartford, Kent</li>
-              </ul>
-              <a href="AdeogoAdenijiResume (1).pdf" class="btn btn-primary rounded-pill" download>Download CV</a> </div>
-          </div>
-        </div>
-        <div class="brands-grid separator-border separator-border-light mt-5">
-          <div class="row">
-            <div class="col-6 col-md-3">
-              <div class="featured-box text-center">
-                <h4 class="text-12 text-white-50 mb-0"><span class="counter" data-from="0" data-to="4">3</span>+</h4>
-                <p class="text-light mb-0">Years of experience</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-3">
-              <div class="featured-box text-center">
-                <h4 class="text-12 text-white-50 mb-0"><span class="counter" data-from="0" data-to="20">250</span>+</h4>
-                <p class="text-light mb-0">Projects created</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-3">
-              <div class="featured-box text-center">
-                <h4 class="text-12 text-white-50 mb-0"><span class="counter" data-from="0" data-to="4">650</span>+</h4>
-                <p class="text-light mb-0">Games published</p>
-              </div>
-            </div>
-            <!--
-            <div class="col-6 col-md-3">
-              <div class="featured-box text-center">
-                <h4 class="text-12 text-white-50 mb-0"><span class="counter" data-from="0" data-to="38">20</span></h4>
-                <p class="text-light mb-0">Get Awards</p>
-              </div>
-            </div>
-          -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About end -->
-
-    <!-- Services
-    ============================================= -->
-    <section id="services" class="section bg-dark-2">
-      <div class="container px-lg-5">
-        <!-- Heading -->
-        <div class="position-relative d-flex text-center mb-5">
-          <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Skills</h2>
-          <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">What Can I Do?<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
-        </div>
-        <!-- Heading end-->
-
-        <div class="row">
-          <div class="col-lg-11 mx-auto">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i class="fas fa-palette"></i> </div>
-                  <h3 class="text-white">Unity Programming</h3>
-                  <p class="text-white-50 mb-0">As someone who has been using Unity for 3-4 years, I have a strong understanding of the platform and are familiar with many design patterns. My proficiency in Unity enables me to create high-quality games with engaging gameplay and visually appealing graphics. </p>
-                  <p class="text-white-50 mb-0">I am able to utilize the various features and tools of the engine to bring my game ideas to life and have the ability to troubleshoot and solve problems as they arise. My extensive experience with Unity makes me a valuable asset to any team in the gaming industry, and I am well-equipped to take on complex projects and deliver exceptional results.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i class="fas fa-desktop"></i></div>
-                  <h3 class="text-white">Unreal Programming</h3>
-                  <p class="text-white-50 mb-0">With my strong foundation in programming and game development, I have quickly gained proficiency in Unreal Engine, using its various features and tools to create high-quality games with cutting-edge graphics and immersive gameplay. My ability to adapt to new technology and learn new platforms quickly has allowed me to become proficient in Unreal Engine in a short amount of time, and my understanding of the engine's code structure enables me to troubleshoot and solve problems efficiently. </p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i class="fas fa-pencil-ruler"></i> </div>
-                  <h3 class="text-white">SDL and OpenGL Programming</h3>
-                  <p class="text-white-50 mb-0">My skills and ability using OpenGL and the SDL library are impressive, as I have a strong understanding of both technologies and are able to use them to create games. My proficiency with OpenGL and SDL enables me to create games with high-quality graphics and smooth gameplay, and I am able to utilize the various features and tools of these libraries to bring my game ideas to life.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5">
-                  <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i class="fas fa-paint-brush"></i> </div>
-                  <h3 class="text-white">General Programming</h3>
-                  <p class="text-white-50 mb-0">As a general purpose programmer, I have a strong foundation in coding and problem-solving skills. My extensive knowledge in graph theory has allowed me to solve many complicated problems, and my proficiency in network flow algorithms has helped me tackle a wide range of challenges. Network flow algorithms have been used to optimize transportation and distribution networks, schedule production in factories, etc.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-5 mb-md-0">
-                  <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i class="fas fa-chart-area"></i> </div>
-                  <h3 class="text-white">Maths for Programming</h3>
-                  <p class="text-white-50 mb-0">My skills in math are a valuable asset when it comes to game programming. My understanding of complex mathematical concepts and ability to apply them to game development enables me to create engaging and immersive gameplay experiences. My proficiency in maths allows me to tackle challenging problems and find innovative solutions, and my ability to think critically and creatively enables me to deliver high-quality work. Whether I am working on a large-scale project or a smaller, more focused task, my skills in maths and programming make me a valuable asset.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="featured-box style-3 mb-0">
-                  <div class="featured-box-icon text-primary bg-dark-1 shadow-sm rounded"> <i class="fas fa-bullhorn"></i> </div>
-                  <h3 class="text-white">A.I.</h3>
-                  <p class="text-white-50 mb-0">My expertise in artificial intelligence (AI) is an invaluable asset when it comes to game development. My ability to design and implement advanced AI algorithms enables me to create intelligent and realistic non-player characters (NPCs) that enhance the player's gaming experience. I can also create dynamic AI systems that can adapt to different situations and scenarios.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Services end -->
-
-    <!-- Resume
-    ============================================= -->
-    <section id="resume" class="section bg-dark-1">
-      <div class="container px-lg-5">
-        <!-- Heading -->
-        <div class="position-relative d-flex text-center mb-5">
-          <h2 class="text-24 text-muted opacity-1 text-uppercase fw-600 w-100 mb-0">Summary</h2>
-          <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Resume<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
-        </div>
-        <!-- Heading end-->
-
-        <div class="row gx-5">
-          <!-- My Education -->
-          <div class="col-md-6">
-            <h2 class="text-6 text-white fw-600 mb-4">My Education</h2>
-            <div class="bg-dark rounded p-4 mb-4">
-              <p class="badge bg-danger text-2 fw-400">2013 - 2018</p>
-              <h3 class="text-5 text-white">GCSE</h3>
-              <p class="text-primary">Trinity School Belvedere</p>
-              <p class="text-white-50 mb-0">Maths - 8, Science - 7 7, Computer Science - 5, English Language and Literature - 5 5</p>
-            </div>
-            <div class="bg-dark rounded p-4 mb-4">
-              <p class="badge bg-danger text-2 fw-400">2018 - 2020</p>
-              <h3 class="text-5 text-white">A-Level</h3>
-              <p class="text-primary">Bullerswood Girls Sixth Form</p>
-              <p class="text-white-50 mb-0">Economics - A, Computer Science - B, Maths - C</p>
-            </div>
-            <div class="bg-dark rounded p-4 mb-4">
-              <p class="badge bg-danger text-2 fw-400">2020 - Present</p>
-              <h3 class="text-5 text-white">Bachelor Degree</h3>
-              <p class="text-primary">Staffordshire University</p>
-              <p class="text-white-50 mb-0">Still in Education</p>
-            </div>
-          </div>
-
-          <!-- My Experience -->
-          <div class="col-md-6">
-            <h2 class="text-6 text-white fw-600 mb-4">My Experience</h2>
-            <div class="bg-dark rounded p-4 mb-4">
-              <p class="badge bg-danger text-2 fw-400">2019 - Present</p>
-              <h3 class="text-5 text-white">Unity</h3>
-              <!--<p class="text-primary">Themeforest</p> -->
-              <p class="text-white-50 mb-0">I have a strong preference for Unity as a game development platform due to its intuitive interface and extensive documentation, which allows me to quickly prototype and iterate on game ideas.</p>
-            </div>
-            <div class="bg-dark rounded p-4 mb-4">
-              <p class="badge bg-danger text-2 fw-400">2021 - Present</p>
-              <h3 class="text-5 text-white">Unreal</h3>
-                <!--<p class="text-primary">Dribbble</p> -->
-              <p class="text-white-50 mb-0">I have a strong appreciation for Unreal Engine as a game development platform due to its practicality and versatility. Its robust toolset and efficient workflow allow me to efficiently create and iterate on a wide range of game projects.</p>
-            </div>
-            <div class="bg-dark rounded p-4 mb-4">
-              <p class="badge bg-danger text-2 fw-400">2018 - Preseent</p>
-              <h3 class="text-5 text-white">General Purpose Programming</h3>
-              <!--<p class="text-primary">Adobe</p> -->
-              <p class="text-white-50 mb-0">I have a strong interest in general purpose programming and app development, and am always seeking opportunities to expand my knowledge and skills in these areas. I am particularly interested in exploring new languages and technologies that can help me create innovative and efficient software solutions.</p>
-            </div>
-          </div>
-        </div>
-        <!-- My Skills -->
-		<h2 class="text-6 text-white fw-600 mt-4 mb-4">My Skills</h2>
-        <div class="row gx-5">
-          <div class="col-md-6">
-            <p class="text-light fw-500 text-start mb-2">C++ <span class="float-end">65%</span></p>
-            <div class="progress progress-sm bg-dark mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p class="text-light fw-500 text-start mb-2">Java <span class="float-end">50%</span></p>
-            <div class="progress progress-sm bg-dark mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p class="text-light fw-500 text-start mb-2">C# <span class="float-end">60%</span></p>
-            <div class="progress progress-sm bg-dark mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <p class="text-light fw-500 text-start mb-2">Unity <span class="float-end">70%</span></p>
-            <div class="progress progress-sm bg-dark mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <p class="text-light fw-500 text-start mb-2">Unreal Engine <span class="float-end">45%</span></p>
-            <div class="progress progress-sm bg-dark mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <!--
-            <p class="text-light fw-500 text-start mb-2">Bootstrap <span class="float-end">99%</span></p>
-            <div class="progress progress-sm bg-dark mb-4">
-              <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          -->
-          </div>
-        </div>
-        <div class="text-center mt-5"><a href="AdeogoAdenijiResume (1).pdf" class="btn btn-outline-secondary rounded-pill shadow-none" download>Download CV <span class="ms-1"><i class="fas fa-download"></i></span></a></div>
-      </div>
-    </section>
-    <!-- Resume end -->
-
-    <!-- Portfolio
-    ============================================= -->
-    <section id="portfolio" class="section bg-dark-2">
-      <div class="container px-lg-5">
-        <!-- Heading -->
-        <div class="position-relative d-flex text-center mb-5">
-          <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Portfolio</h2>
-          <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">My Work<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
-        </div>
-        <!-- Heading end-->
-
-        <!-- Filter Menu -->
-        <ul class="portfolio-menu nav nav-tabs nav-light justify-content-center border-bottom-0 mb-5">
-          <li class="nav-item"> <a data-filter="*" class="nav-link active" href="">All</a></li>
-          <li class="nav-item"> <a data-filter=".Unity" href="" class="nav-link">Unity</a></li>
-          <li class="nav-item"> <a data-filter=".GeneralPurpose" href="" class="nav-link">General Purpose</a></li>
-          <li class="nav-item"> <a data-filter=".Others" href="" class="nav-link">Others</a></li>
-        </ul>
-        <!-- Filter Menu end -->
-
-        <div class="portfolio popup-ajax-gallery">
-          <div class="row portfolio-filter g-4">
-            <div class="col-sm-6 col-lg-4 Unity">
-              <div class="portfolio-box rounded">
-
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-1.jpg" alt="">
-                  <div class="portfolio-overlay"><a  href="https://youtu.be/lzXkQGTLPLc" class="popup-ajax stretched-link"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Kill To Survive</h5>
-                      <span class="text-light">Mobile FPS (W.I.P)</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 Unity">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-2.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\2 - RulersRoute\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Rulers Route</h5>
-                      <span class="text-light">Racing game</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 artwork Unity">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-3.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\3 - Swerve\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Swerve</h5>
-                      <span class="text-light">Mobile Hyper-Casual</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 artwork Unity">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-4.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\4 - AroundTheWorld\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Around The World</h5>
-                      <span class="text-light">Mobile Hyper-Casual</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 artwork Unity">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-5.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\5 - LEAP.LEARN.LIVE!\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">LEAP.LEARN.LIVE!</h5>
-                      <span class="text-light">Mobile Hyper-Casual</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 artwork Unity">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-6.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\6 - Grappler\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Grappler</h5>
-                      <span class="text-light">Mobile Hyper-Casual</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 artwork Unity">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-7.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\7 - AI-Unity\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">AI work</h5>
-                      <span class="text-light">AI Steering Behviours</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 GeneralPurpose">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-1.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\8 - Password Generator and Storage\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Password Generator and Storage</h5>
-                      <span class="text-light">Cloud Password Storage web app</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 GeneralPurpose">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-2.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\9 - Sorting Algorithm and GraphTheory\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Sorting Algorithms and Graph Theory</h5>
-                      <span class="text-light">Graph Theory</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 GeneralPurpose">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-3.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\10 - Virtual Assisstant for PC\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Virtual Assistant for PC</h5>
-                      <span class="text-light">Virtual Assistant</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 GeneralPurpose">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-4.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\11 - Scraping Wikipedia Sites\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Scraping wikipedia sites</h5>
-                      <span class="text-light">Webscrapper</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 GeneralPurpose">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-5.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\12 - Blockchain Application\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">blockchain application</h5>
-                      <span class="text-light">Blockchain</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 GeneralPurpose">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-6.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\13 - Blockchain with c++\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Blockchain with c++</h5>
-                      <span class="text-light">Blockchain</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 GeneralPurpose">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-7.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\14 - VPN\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">VPN</h5>
-                      <span class="text-light">Command Line Programming</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 Others">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-1.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\15 - Procedural Spline Mesh Generation\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Procedural Spline Mesh Generator</h5>
-                      <span class="text-light">Unreal</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 Others">
-              <div class="portfolio-box rounded">
-                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-2.jpg" alt="">
-                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="PortfolioProject Templates\16 - Steering Behaviours in c++\index.html"></a>
-                    <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Steering Behaviours in c++</h5>
-                      <span class="text-light">AI</span> </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-    </section>
-    <!-- Portfolio end -->
-
-
-
-    <!-- Testimonial
-    ============================================= -->
-    <!--
-    <section id="testimonial" class="section bg-dark-1">
-      <div class="container px-lg-5">
-      -->
-        <!-- Heading -->
-        <!--
-        <div class="position-relative d-flex text-center mb-5">
-          <h2 class="text-24 text-muted opacity-1 text-uppercase fw-600 w-100 mb-0">Testimonial</h2>
-          <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Client Speak<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
-        </div>
-      -->
-        <!-- Heading end-->
-
 <!--
-        <div class="owl-carousel owl-light owl-theme" data-loop="true" data-nav="false" data-autoplay="false" data-margin="25" data-stagepadding="0" data-slideby="1" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="2">
-          <div class="item">
-            <div class="bg-dark rounded p-5">
-              <div class="d-flex align-items-center mt-auto mb-4"> <img class="img-fluid rounded-circle d-inline-block w-auto" src="images/testimonial/client-sm-3.jpg" alt="">
-                <p class="ms-3 mb-0"><strong class="d-block text-white fw-600">Dennis Jacques</strong> <span class="text-white-50 fw-500">User from USA</span></p>
-              </div>
-              <p class="text-light mb-4">“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.”</p>
-              <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> </span> </div>
-          </div>
-          <div class="item">
-            <div class="bg-dark rounded p-5">
-              <div class="d-flex align-items-center mt-auto mb-4"> <img class="img-fluid rounded-circle d-inline-block w-auto" src="images/testimonial/client-sm-1.jpg" alt="">
-                <p class="ms-3 mb-0"><strong class="d-block text-white fw-600">Jay Shah</strong> <span class="text-white-50 fw-500">Founder at Icomatic Pvt Ltd</span></p>
-              </div>
-              <p class="text-light mb-4">"Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure.”</p>
-              <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> </span> </div>
-          </div>
-          <div class="item">
-            <div class="bg-dark rounded p-5">
-              <div class="d-flex align-items-center mt-auto mb-4"> <img class="img-fluid rounded-circle d-inline-block w-auto" src="images/testimonial/client-sm-2.jpg" alt="">
-                <p class="ms-3 mb-0"><strong class="d-block text-white fw-600">Patrick Cary</strong> <span class="text-white-50 fw-500">Freelancer from USA</span></p>
-              </div>
-              <p class="text-light mb-4">“I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.”</p>
-              <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> </span> </div>
-          </div>
-          <div class="item">
-            <div class="bg-dark rounded p-5">
-              <div class="d-flex align-items-center mt-auto mb-4"> <img class="img-fluid rounded-circle d-inline-block w-auto" src="images/testimonial/client-sm-4.jpg" alt="">
-                <p class="ms-3 mb-0"><strong class="d-block text-white fw-600">Chris Tom</strong> <span class="text-white-50 fw-500">User from UK</span></p>
-              </div>
-              <p class="text-light mb-4">“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
-              <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> </span> </div>
-          </div>
+                <div class="col-md-8">
+                    <div class="menu-icon">
+                        <div class="open-btn">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+              -->
+            </div>
         </div>
-      </div>
-    </section>
-    -->
-    <!-- Testimonial end -->
+    </header>
+    <!--====== Header End ======-->
 
+    <!--====== Off Canvas Menu Start ======-->
+    <div class="off-canvas-menu">
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#header-bottom">Home</a></li>
+                <li><a href="#about-area">About</a></li>
+                <li><a href="#education-area">Education</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
 
-
-    <!-- Contact Me
-    ============================================= -->
-    <section id="contact" class="section bg-dark-2">
-      <div class="container px-lg-5">
-        <!-- Heading -->
-        <div class="position-relative d-flex text-center mb-5">
-          <h2 class="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">Contact</h2>
-          <p class="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Get in Touch<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
-        </div>
-        <!-- Heading end-->
-
-        <div class="row gy-5">
-          <div class="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
-            <!--
-            <h2 class="mb-3 text-5 text-white text-uppercase">Address</h2>
-            <p class="text-3 text-light mb-4">4th Floor, Plot No.22,<br>
-              145 Murphy Canyon Rd.<br>
-              San Diego CA 2028 </p>
-            <p class="text-3 text-light mb-1"><span class="text-primary text-4 me-2"><i class="fas fa-phone"></i></span>(060) 444 434 444</p>
-            <p class="text-3 text-light mb-1"><span class="text-primary text-4 me-2"><i class="fas fa-fax"></i></span>(060) 555 545 555</p>
-          -->
-            <p class="text-3 text-light mb-4"><span class="text-primary text-4 me-2"><i class="fas fa-envelope"></i></span>adeogo172@gmail.com</p>
-            <h2 class="mb-3 text-5 text-white text-uppercase">Follow Me</h2>
-            <ul class="social-icons social-icons-muted justify-content-center justify-content-md-start">
-              <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" href="https://www.linkedin.com/in/adeogo-a-6b690b165/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/Adeogo234" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-              <!--<li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>-->
-              <!--<li class="social-icons-google"><a data-bs-toggle="tooltip" href="http://www.google.com/" target="_blank" title="Google"><i class="fab fa-google"></i></a></li>-->
-              <li class="social-icons-github"><a data-bs-toggle="tooltip" href="https://github.com/Adeogo1" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+                <!--
+                <li><a href="#testimonial-area">Testimonials</a></li>
+                <li><a href="single-blog.html">Single Blog</a></li>
+                <li><a href="single-portfolio.html">Single Portfolio</a></li>
+              -->
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact-area">Contact Me</a></li>
             </ul>
-          </div>
-          <div class="col-md-8 col-xl-9 order-0 order-md-1">
-            <h2 class="mb-3 text-5 text-white text-uppercase text-center text-md-start">Send us a note</h2>
-			<form id="contact-form" class="form-dark" action="php/mail.php" method="post">
-			  <div class="row g-4">
-                <div class="col-xl-6">
-                    <input name="name" type="text" class="form-control" required placeholder="Name">
+        </nav>
+        <button class="menu-close-btn">Close</button>
+    </div>
+    <!--====== Off Canvas Menu End ======-->
+
+    <!--====== HeaderBottom Start ======-->
+    <section id="header-bottom">
+        <div class="header-main wow fadeInUp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="dispaly-table">
+                            <div class="display-table-cell">
+                                <div class="header-bottom">
+                                    <h1>Hello!</h1>
+                                    <h3><span>I'm</span> Adeogo Adeniji</h3>
+                                    <p>Software &amp; Game Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xl-6">
-                    <input name="email" type="email" class="form-control" required placeholder="Email">
-                </div>
-				<div class="col">
-					<textarea name="form-message" class="form-control" rows="5" required placeholder="Tell us more about your needs........"></textarea>
-				</div>
-              </div>
-              <p class="text-center mt-4 mb-0">
-				<button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex" type="submit">Send Message</button>
-              </p>
-            </form>
-          </div>
+            </div>
         </div>
-      </div>
     </section>
-    <!-- Contact Me end -->
+    <!--====== HeaderBottom End ======-->
 
-  </div>
-  <!-- Content end -->
+        <!--====== About Area Start ======-->
+        <section id="about-area" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about-thum-area wow fadeInLeft">
+                            <div class="about-img">
+                                <img src="2ndWebsite/images/headshot.png" alt="Resume Template">
+                            </div>
+                            <div class="resume-btn">
+                                <a href="AdeogoAdenijiResume.pdf"><i class="fa fa-cloud-download"></i> Download Resume</a>
+                            </div>
+                        </div>
+                    </div>
 
-  <!-- Footer
-  ============================================= -->
-  <!--
-  <footer id="footer" class="section footer-dark bg-dark-1">
-    <div class="container px-lg-5">
-      <div class="row">
-        <div class="col-lg-6 text-center text-lg-start">
-          <p class="mb-3 mb-lg-0">Copyright © 2022 <a href="#" class="fw-500">Simone</a>. All Rights Reserved.</p>
+                    <div class="col-md-6">
+                        <div class="about-content-area wow fadeInRight">
+                            <div class="section-title">
+                                <h2>About Me</h2>
+                            </div>
+
+                            <p>I'm a graduate student in computer games development from Staffordshire University with a passion for creating immersive gaming experiences.</p>
+                               <p>Proficient in C++, C#, Java, Unity, and Unreal Engine, I have a strong foundation in computer science principles, including graph theory and various algorithms. </p>
+                                 <p>I've also created my own physics engine. My specialization is AI development, encompassing skills in steering behaviors, pathfinding, and decision-making techniques like finite state machines and fuzzy state machines. I'm eager for challenges and confident in my ability to contribute value to the gaming industry.</p>
+
+                            <ul class="profile-menu">
+                                <li><span>Name: </span> Adeogo Adeniji</li>
+                                <li><span>Date of birth: </span> 20 JAN 2002</li>
+                                <!--
+                                <li><span>Nationality: </span> Citizen Of Envato</li>
+                                <li><span>Address: </span> 23 High Hope Blvd., Some City, Some Country</li>
+                                <li><span>Phone: </span> (123) - 456-7890, (123) - 456-7890</li>
+                              -->
+                                <li><span>E-Mail: </span> adeogo172@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== About Area End ======-->
+
+
+        <!--====== Education Area Start ======-->
+        <section id="education-area" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Education</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="educaton-content">
+                            <div class="cd-timeline">
+                                <!--===Single Education Start===-->
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img">
+                                        <span class="dot"></span>
+                                    </div>
+                                    <div class="cd-timeline-content">
+                                        <div class="cd-heading wow fadeInLeft">
+                                            <h2>B.Sc(Hons) Computer Games Development</h2>
+                                            <p>SEP 2020 - JUN 2023 | <span>Staffordshire University</span></p>
+                                        </div>
+                                        <span class="cd-description wow fadeInRight">
+                                           This course provides a solid foundation in software development. It prepared us for careers as a software developers in the gaming industry
+                                        </span>
+                                    </div>
+                                </div>
+                                <!--===Single Education End===-->
+
+                                <!--===Single Education Start===-->
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img">
+                                        <span class="dot"></span>
+                                    </div>
+                                    <div class="cd-timeline-content">
+                                        <div class="cd-heading wow fadeInRight">
+                                            <h2>A Levels</h2>
+                                            <p><span>Bullerswood Girls</span> | SEP 2018 - JUN 2020</p>
+                                        </div>
+                                        <span class="cd-description wow fadeInLeft">
+                                            ECONOMICS - A, COMPUTER SCIENCE - B, MATHS - C
+                                        </span>
+                                    </div>
+                                </div>
+                                <!--===Single Education End===-->
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== Education Area End ======-->
+
+        <!--====== Skill Area Start ======-->
+        <section id="pro-skills-area" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Professional Skills</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-area-middle">
+                <div class="container">
+                    <div class="skills-content">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="skillst5">
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">C++</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">C</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">C#</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">OPENGL</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="skillst5 float-right">
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">UNITY</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">UNREAL</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">DATABASE TECHNOLOIES</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                    <!--=== Single Skill Strat ===-->
+                                    <div class="skillbar" data-percent="100%">
+                                        <div class="title">CLOUD AND INFRASTRUCTURE</div>
+                                        <div class="count-bar color-1">
+                                            <div class="count"></div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Skill End ===-->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-area-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="skill-bottom-content">
+                                <div class="single-skill-bottom wow fadeInUp">
+                                    <h2>02.</h2>
+                                    <h3>LOW LEVEL PROGRAMMING</h3>
+                                    <p>I have a strong foundation in coding and problem-solving skills. My extensive knowledge in graph theory has allowed me to solve many complicated problems, and my proficiency in network flow algorithms has helped me tackle a wide range of challenges.</p>
+                                </div>
+
+                                <div class="single-skill-bottom sin-skill-middle wow fadeInDown">
+                                    <h2>01.</h2>
+                                    <h3>UNITY</h3>
+                                    <p>I am able to utilize the various features and tools of the engine to bring my game ideas to life and have the ability to troubleshoot and solve problems as they arise. My extensive experience with Unity makes me a valuable asset to any team in the gaming industry, and I am well-equipped to take on complex projects and deliver exceptional results.</p>
+                                </div>
+
+                                <div class="single-skill-bottom wow fadeInUp">
+                                    <h2>03.</h2>
+                                    <h3>UNREAL</h3>
+                                    <p>My ability to adapt to new technology and learn new platforms quickly has allowed me to become proficient in Unreal Engine in a short amount of time, and my understanding of the engine's code structure enables me to troubleshoot and solve problems efficiently.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== Skill Area End ======-->
+
+        <!--====== Portfolio Area Start ======-->
+        <section id="portfolio-area" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>PORTFOLIO</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="portfolio-items">
+                                <div class="row">
+                                    <!--=== Single Portfolio Start ===-->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="portfolio-single">
+                                            <div class="portfolio-thum">
+                                                <img src="img/KTS/KTS3.png" alt="Raju Ahammad">
+                                            </div>
+                                            <div class="portfolio-hover text-center">
+                                                <div class="port-btn-hvr">
+                                                    <a href="img/KTS/KTS.png" class="image-link"><i class="fa fa-search-plus"></i></a>
+                                                    <!--<a href="single-portfolio.html"><i class="fa fa-link"></i></a>-->
+                                                </div>
+                                                <div class="port-meta">
+                                                    <h4>UNITY</h4>
+                                                    <p>Kill To Survive</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Portfolio End ===-->
+
+                                    <!--=== Single Portfolio Start ===-->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="portfolio-single">
+                                            <div class="portfolio-thum">
+                                                <img src="img/Rulers/Rulers.png" alt="Raju Ahammad">
+                                            </div>
+                                            <div class="portfolio-hover text-center">
+                                                <div class="port-btn-hvr">
+                                                    <a href="img/portfolio/port_item-2.jpg" class="image-link"><i class="fa fa-search-plus"></i></a>
+                                                    <!--<a href="single-portfolio.html"><i class="fa fa-link"></i></a>-->
+                                                </div>
+                                                <div class="port-meta">
+                                                    <h4>UNITY</h4>
+                                                    <p>Rulers Route</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Portfolio End ===-->
+
+                                    <!--=== Single Portfolio Start ===-->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="portfolio-single">
+                                            <div class="portfolio-thum">
+                                                <img src="img/Emotion/GAMYGDALA.png" alt="Raju Ahammad">
+                                            </div>
+                                            <div class="portfolio-hover text-center">
+                                                <div class="port-btn-hvr">
+                                                    <a href="img/Emotion/GAMYGDALA.png" class="image-link"><i class="fa fa-search-plus"></i></a>
+                                                    <!--<a href="single-portfolio.html"><i class="fa fa-link"></i></a>-->
+                                                </div>
+                                                <div class="port-meta">
+                                                    <h4>UNITY</h4>
+                                                    <p>Emotional Appraisal Engine</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Portfolio    End ===-->
+
+                                    <!--=== Single Portfolio Start ===-->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="portfolio-single">
+                                            <div class="portfolio-thum">
+                                                <img src="img/ATW/atw.png" alt="Raju Ahammad">
+                                            </div>
+                                            <div class="portfolio-hover text-center">
+                                                <div class="port-btn-hvr">
+                                                    <a href="img/ATW/atw.png" class="image-link"><i class="fa fa-search-plus"></i></a>
+                                                    <!--<a href="single-portfolio.html"><i class="fa fa-link"></i></a>-->
+                                                </div>
+                                                <div class="port-meta">
+                                                    <h4>UNITY</h4>
+                                                    <p>Around The World</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Portfolio End ===-->
+
+                                    <!--=== Single Portfolio Start ===-->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="portfolio-single">
+                                            <div class="portfolio-thum">
+                                                <img src="img/AI/SOCCER.png" alt="Raju Ahammad">
+                                            </div>
+                                            <div class="portfolio-hover text-center">
+                                                <div class="port-btn-hvr">
+                                                    <a href="img/AI/SOCCER.png" class="image-link"><i class="fa fa-search-plus"></i></a>
+                                                    <!--<a href="single-portfolio.html"><i class="fa fa-link"></i></a>-->
+                                                </div>
+                                                <div class="port-meta">
+                                                    <h4>SDL2</h4>
+                                                    <p>AI Engine</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Portfolio    End ===-->
+
+                                    <!--=== Single Portfolio Start ===-->
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <div class="portfolio-single">
+                                            <div class="portfolio-thum">
+                                                <img src="img/Physics/PHYSICS.png" alt="Raju Ahammad">
+                                            </div>
+                                            <div class="portfolio-hover text-center">
+                                                <div class="port-btn-hvr">
+                                                    <a href="img/Physics/PHYSICS.png" class="image-link"><i class="fa fa-search-plus"></i></a>
+                                                    <!--<a href="single-portfolio.html"><i class="fa fa-link"></i></a>-->
+                                                </div>
+                                                <div class="port-meta">
+                                                    <h4>OPENGL</h4>
+                                                    <p>Physics Engine</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--=== Single Portfolio End ===-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio-btn">
+                              <!--
+                                <a href="portfolio.html">Load More</a>
+                              -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--====== Portfolio Area End ======-->
+
+        <!--====== Blog Area Start ======-->
+        <section id="blog-area" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Blog Posts</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--=== Single Blog Start ===-->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-blog wow fadeInLeft">
+                            <div class="blog-thum blog-thum-1"></div>
+                            <div class="blog-content">
+                                <h4>AI ENGINE</h4>
+                                <p class="post-meta">
+                                  <!--
+                                    <a href="#">18, March, 2017</a>
+                                    <span>|</span>
+                                    <a href="#">33 Comments</a>
+                                  -->
+                                </p>
+                                <p>The "AI Engine" project is a pinnacle achievement in my game development portfolio, showcasing my proficiency in creating intricate 2D games using SDL2 C++. This endeavor serves as a testament to my versatility and expertise across a spectrum of disciplines, including AI programming, mathematics, physics, and game design.</p>
+                                <!--<a href="single-blog.html" class="readmore-btn">read more <i class="fa fa-angle-right"></i></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== Single Blog End ===-->
+                    <!--=== Single Blog Start ===-->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-blog wow fadeInUp">
+                            <div class="blog-thum blog-thum-2"></div>
+                            <div class="blog-content">
+                                <h4>PHYSICS ENGINE</h4>
+                                <p class="post-meta">
+                                  <!--
+                                    <a href="#">18, March, 2017</a>
+                                    <span>|</span>
+                                    <a href="#">33 Comments</a>
+                                  -->
+                                </p>
+                                <p>The "Physics Engine" project is a groundbreaking endeavor in 3D game development, a testament to my prowess in creating sophisticated and realistic physics simulations using OpenGL C++. This project is a demonstration of my proficiency across various domains, including physics, mathematics, computer graphics, and optimization.</p>
+                                <!--<a href="single-blog.html" class="readmore-btn">read more <i class="fa fa-angle-right"></i></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== Single Blog End ===-->
+                    <!--=== Single Blog Start ===-->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-blog wow fadeInRight">
+                            <div class="blog-thum blog-thum-3"></div>
+                            <div class="blog-content">
+                                <h4>Kill To Survive</h4>
+                                <p class="post-meta">
+                                  <!--
+                                    <a href="#">18, March, 2017</a>
+                                    <span>|</span>
+                                    <a href="#">33 Comments</a>
+                                  -->
+                                </p>
+                                <p>"Kill To Survive" is a mobile horror first-person shooter (FPS) battle royale game, meticulously crafted within the Unity game engine. This project stands as a testament to my prowess in game development, highlighting the meticulous application of advanced design patterns, dynamic character animations, and an array of immersive movements, all contributing to the creation of a captivating gaming experience.</p>
+                                <!--<a href="single-blog.html" class="readmore-btn">read more <i class="fa fa-angle-right"></i></a>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--=== Single Blog End ===-->
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="blog-load-btn">
+                            <a href="#" class="loadmore-btn">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== Blog Area End ======-->
+
+        <!--====== Contact Area Start ======-->
+        <section id="contact-area" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="contact-form">
+                            <form name="sentMessage" id="contactForm" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="name-input">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                                                <p class="help-block text-danger"></p>
+                                                <span>Name *</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="email-input">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                                                <p class="help-block text-danger"></p>
+                                                <span>Email *</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="textarea-input">
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="message" required data-validation-required-message="Please write your message."></textarea>
+                                                <p class="help-block text-danger"></p>
+                                                <span>Message *</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-lg-12 text-center">
+                                        <div id="success"></div>
+                                        <button type="submit" class="contact-btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== Contact Area End ======-->
+
+        <!--====== Footer Area Start ======-->
+        <footer id="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-social-link">
+                            <ul class="footer-icons">
+                              <!--
+                              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                              -->
+                              <li><a href="https://github.com/Adeogo1"><i class="fa fa-github"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/adeogo-a-6b690b165/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--====== Footer Area End ======-->
+
+        <!--====== Back To Top Section Start ======-->
+        <div id="scroll" data-toggle="tooltip" data-placement="top" title="Back To Top">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
         </div>
-        <div class="col-lg-6">
-          <ul class="nav nav-separator nav-separator-light justify-content-center justify-content-lg-end">
-            <li class="nav-item"> <a class="nav-link" data-bs-toggle="modal" data-bs-target="#terms-policy" href="#">Terms & Policy</a></li>
-            <li class="nav-item"> <a class="nav-link" data-bs-toggle="modal" data-bs-target="#disclaimer" href="#">Disclaimer</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
--->
-  <!-- Footer end -->
+        <!--====== Back To Top Section End ======-->
 
-</div>
-<!-- Document Wrapper end -->
+        <!--==================================================================-->
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
-<!-- Back to Top
-============================================= -->
-<a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+        <!--=== All Plugin ===-->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/plugins/magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/plugins/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/plugins/wow.min.js"></script>
+        <script type="text/javascript" src="js/plugins/appear.js"></script>
+        <script type="text/javascript" src="js/plugins/jqBootstrapValidation.js"></script>
+        <script type="text/javascript" src="js/plugins/contact_me.js"></script>
+        <script type="text/javascript" src="js/plugins/isotope.min.js"></script>
 
-<!-- Terms & Policy Modal
-================================== -->
-<div id="terms-policy" class="modal fade" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-    <div class="modal-content bg-dark-2 text-light">
-      <div class="modal-header border-secondary">
-        <h5 class="modal-title text-white">Terms & Policy</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body p-4">
-        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        <h3 class="text-white mb-3 mt-4 mt-4">Terms of Use</h3>
-        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Simply dummy text of the printing and typesetting industry.</p>
-        <h5 class="text-white text-4 mt-4">Part I – Information Simone collects and controls</h5>
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <h5 class="text-white text-4 mt-4">Part II – Information that Simone processes on your behalf</h5>
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <h5 class="text-white text-4 mt-4">Part III – General</h5>
-        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <h3 class="text-white mb-3 mt-4">Privacy Policy</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-        <ol class="lh-lg">
-          <li>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>Quidam lisque persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>In quot quidam persequeris vim, ad mea essent possim iriure. Quidam lisque persius interesset his et.</li>
-          <li>Quidam lisque persius interesset his et, Lisque persius interesset his et.</li>
-          <li>Interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>Persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>Quot quidam persequeris vim Quidam lisque persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-        </ol>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Terms & Policy Modal End -->
+        <script type="text/javascript" src="js/main.js"></script>
 
-<!-- Disclaimer Modal
-================================== -->
-<div id="disclaimer" class="modal fade" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-    <div class="modal-content bg-dark-2 text-light">
-      <div class="modal-header border-secondary">
-        <h5 class="modal-title text-white">Copyright & Disclaimer</h5>
-		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body p-4">
-        <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-        <ul class="lh-lg">
-          <li>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>Quidam lisque persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>In quot quidam persequeris vim, ad mea essent possim iriure. Quidam lisque persius interesset his et.</li>
-          <li>Quidam lisque persius interesset his et, Lisque persius interesset his et.</li>
-          <li>Interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>Persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-          <li>Quot quidam persequeris vim Quidam lisque persius interesset his et, Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Disclaimer Modal End -->
+    </body>
 
-<!-- JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- Easing -->
-<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-<!-- Appear -->
-<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-<!-- Images Loaded -->
-<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<!-- Counter -->
-<script src="vendor/jquery.countTo/jquery.countTo.min.js"></script>
-<!-- Parallax Bg -->
-<script src="vendor/parallaxie/parallaxie.min.js"></script>
-<!-- Typed -->
-<script src="vendor/typed/typed.min.js"></script>
-<!-- Owl Carousel -->
-<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-<!-- isotope Portfolio Filter -->
-<script src="vendor/isotope/isotope.pkgd.min.js"></script>
-<!-- Magnific Popup -->
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<!-- Custom Script -->
-<script src="js/theme.js"></script>
-</body>
-</html>
+    </html>
